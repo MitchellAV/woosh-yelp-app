@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Yelp App</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<?php $GOOGLE_MAPS_API_KEY getenv('GOOGLE_MAPS_API_KEY');?>
+	<?php $GOOGLE_MAPS_API_KEY = getenv('GOOGLE_MAPS_API_KEY');?>
 	<script src='https://maps.googleapis.com/maps/api/js?key=<?php echo $GOOGLE_MAPS_API_KEY?>' defer></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="script.js"></script>
