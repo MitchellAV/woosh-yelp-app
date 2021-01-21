@@ -2,7 +2,7 @@
 
 
 $CLIENT_ID  = getenv('CLIENT_ID');
-$API_KEY =  = getenv('API_KEY');
+$API_KEY  = getenv('API_KEY');
 
 //assert($API_KEY, "Please supply your API key.");
 $API_HOST = "https://api.yelp.com";
